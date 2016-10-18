@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ELShakeViewController">
+            <connections>
+                <outlet property="downImageView" destination="l0g-Qa-VdZ" id="0Bl-J0-MKc"/>
+                <outlet property="upImageView" destination="xcU-4d-9Y1" id="qX9-Lz-aq7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yaoyiyao1" translatesAutoresizingMaskIntoConstraints="NO" id="xcU-4d-9Y1" userLabel="Image View up">
+                    <rect key="frame" x="182" y="110" width="235" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="235" id="Zky-jO-gxT"/>
+                        <constraint firstAttribute="height" constant="160" id="vGB-LN-MLF"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yaoyiyao2" translatesAutoresizingMaskIntoConstraints="NO" id="l0g-Qa-VdZ" userLabel="Image View down">
+                    <rect key="frame" x="182" y="270" width="235" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="235" id="EWM-Wo-9qK"/>
+                        <constraint firstAttribute="height" constant="160" id="Lyy-ZV-eXa"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yaoyiyaodi" translatesAutoresizingMaskIntoConstraints="NO" id="bRz-2I-myM" userLabel="BG Image View">
+                    <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="l0g-Qa-VdZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3Zg-EN-p1A"/>
+                <constraint firstAttribute="trailing" secondItem="bRz-2I-myM" secondAttribute="trailing" id="EcV-rH-Cdm"/>
+                <constraint firstItem="bRz-2I-myM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="GcT-HQ-dEh"/>
+                <constraint firstItem="xcU-4d-9Y1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="P4B-pp-Iy9"/>
+                <constraint firstItem="l0g-Qa-VdZ" firstAttribute="top" secondItem="xcU-4d-9Y1" secondAttribute="bottom" constant="1" id="WUH-My-dpd"/>
+                <constraint firstAttribute="bottom" secondItem="bRz-2I-myM" secondAttribute="bottom" id="ebE-BC-5PE"/>
+                <constraint firstItem="l0g-Qa-VdZ" firstAttribute="top" secondItem="xcU-4d-9Y1" secondAttribute="bottom" id="hfe-Pi-8vZ"/>
+                <constraint firstItem="xcU-4d-9Y1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="110" id="xnt-4n-4Kt"/>
+                <constraint firstItem="bRz-2I-myM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="z0B-0s-Is4"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="WUH-My-dpd"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="yaoyiyao1" width="235" height="160"/>
+        <image name="yaoyiyao2" width="235" height="160"/>
+        <image name="yaoyiyaodi" width="320" height="504"/>
+    </resources>
+</document>

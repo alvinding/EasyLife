@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage
+END
+MKAnnotationView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/MKAnnotationView+WebCache.h
+END
+SDWebImageManagerDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageManagerDelegate.h
+END
+SDImageCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDImageCache.h
+END
+SDWebImageDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageDecoder.h
+END
+MKAnnotationView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/MKAnnotationView+WebCache.m
+END
+SDWebImageManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageManager.h
+END
+SDImageCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDImageCache.m
+END
+SDWebImageDecoder.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageDecoder.m
+END
+UIButton+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIButton+WebCache.h
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/README.md
+END
+SDWebImageManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageManager.m
+END
+SDWebImageDownloaderOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageDownloaderOperation.h
+END
+UIImageView+WebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImageView+WebCache.h
+END
+UIImage+WebP.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImage+WebP.h
+END
+UIButton+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIButton+WebCache.m
+END
+SDWebImageDownloaderOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageDownloaderOperation.m
+END
+UIImageView+WebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImageView+WebCache.m
+END
+UIImage+WebP.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImage+WebP.m
+END
+SDWebImageDownloaderDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageDownloaderDelegate.h
+END
+NSData+ImageContentType.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/NSData+ImageContentType.h
+END
+SDWebImageDownloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageDownloader.h
+END
+UIView+WebCacheOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIView+WebCacheOperation.h
+END
+NSData+ImageContentType.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/NSData+ImageContentType.m
+END
+SDWebImageDownloader.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageDownloader.m
+END
+UIView+WebCacheOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIView+WebCacheOperation.m
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/LICENSE
+END
+UIImageView+HighlightedWebCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImageView+HighlightedWebCache.h
+END
+SDWebImageCompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageCompat.h
+END
+UIImageView+HighlightedWebCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImageView+HighlightedWebCache.m
+END
+UIImage+MultiFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImage+MultiFormat.h
+END
+SDWebImagePrefetcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImagePrefetcher.h
+END
+SDWebImageCompat.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageCompat.m
+END
+UIImage+GIF.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImage+GIF.h
+END
+UIImage+MultiFormat.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImage+MultiFormat.m
+END
+SDWebImagePrefetcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImagePrefetcher.m
+END
+UIImage+GIF.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/UIImage+GIF.m
+END
+SDWebImageOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDWebImageOperation.h
+END
+SDImageCacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/App/!svn/ver/5129/IOS/TDGold/trunk/TDGold/JRJNews/ThirdTool/SDWebImage/SDImageCacheDelegate.h
+END

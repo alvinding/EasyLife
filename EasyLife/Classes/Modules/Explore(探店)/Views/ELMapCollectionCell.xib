@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ELMapCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="316" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="316" height="118"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v7F-pg-aRN">
+                        <rect key="frame" x="5" y="5" width="140" height="99"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="140" id="eLU-V2-p8R"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jf1-Sh-ach" userLabel="Title Label">
+                        <rect key="frame" x="150" y="5" width="156" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUa-Aa-9Co" userLabel="Addr Label">
+                        <rect key="frame" x="150" y="62" width="161" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.4km" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZj-Iy-UjV" userLabel="Dis Label">
+                        <rect key="frame" x="150" y="97" width="45" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="distance2" translatesAutoresizingMaskIntoConstraints="NO" id="HgR-Vm-Vgo">
+                        <rect key="frame" x="153" y="107" width="44" height="6"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="6zT-Lx-Kaf"/>
+                            <constraint firstAttribute="width" constant="44" id="jfi-M2-aZG"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="rcU-FV-vY4" userLabel="Arrow Image View">
+                        <rect key="frame" x="291" y="92" width="20" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="6Ym-d8-vyo"/>
+                            <constraint firstAttribute="width" constant="20" id="XRX-eZ-Gxf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hs-80-qj7" userLabel="Detail Label">
+                        <rect key="frame" x="260" y="93" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="DUa-Aa-9Co" firstAttribute="leading" secondItem="v7F-pg-aRN" secondAttribute="trailing" constant="5" id="18a-e8-eoV"/>
+                <constraint firstAttribute="trailing" secondItem="jf1-Sh-ach" secondAttribute="trailing" constant="10" id="3Cq-RN-2WL"/>
+                <constraint firstItem="HgR-Vm-Vgo" firstAttribute="top" secondItem="RZj-Iy-UjV" secondAttribute="bottom" constant="-2" id="3Ob-kt-29i"/>
+                <constraint firstItem="jf1-Sh-ach" firstAttribute="leading" secondItem="v7F-pg-aRN" secondAttribute="trailing" constant="5" id="77E-9I-a8h"/>
+                <constraint firstAttribute="bottom" secondItem="v7F-pg-aRN" secondAttribute="bottom" constant="14" id="8YK-b0-dq1"/>
+                <constraint firstItem="rcU-FV-vY4" firstAttribute="leading" secondItem="1hs-80-qj7" secondAttribute="trailing" id="Cj7-Qn-vaZ"/>
+                <constraint firstAttribute="trailing" secondItem="DUa-Aa-9Co" secondAttribute="trailing" constant="5" id="Fxp-uw-miz"/>
+                <constraint firstItem="RZj-Iy-UjV" firstAttribute="bottom" secondItem="HgR-Vm-Vgo" secondAttribute="bottom" id="I4E-uL-4mh"/>
+                <constraint firstItem="HgR-Vm-Vgo" firstAttribute="leading" secondItem="v7F-pg-aRN" secondAttribute="trailing" constant="8" id="IPe-4o-5To"/>
+                <constraint firstItem="rcU-FV-vY4" firstAttribute="centerY" secondItem="1hs-80-qj7" secondAttribute="centerY" id="IuO-W4-QoH"/>
+                <constraint firstItem="RZj-Iy-UjV" firstAttribute="leading" secondItem="v7F-pg-aRN" secondAttribute="trailing" constant="5" id="L6Z-Ma-MLA"/>
+                <constraint firstItem="RZj-Iy-UjV" firstAttribute="top" secondItem="DUa-Aa-9Co" secondAttribute="bottom" constant="20" id="NSx-cG-YtT"/>
+                <constraint firstAttribute="trailing" secondItem="rcU-FV-vY4" secondAttribute="trailing" constant="5" id="RP2-ja-Ecb"/>
+                <constraint firstAttribute="bottom" secondItem="rcU-FV-vY4" secondAttribute="bottom" constant="10" id="enq-Qn-Kre"/>
+                <constraint firstItem="RZj-Iy-UjV" firstAttribute="trailing" secondItem="HgR-Vm-Vgo" secondAttribute="trailing" constant="-2" id="fZf-pE-Aik"/>
+                <constraint firstItem="jf1-Sh-ach" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="ja7-hA-KmY"/>
+                <constraint firstItem="rcU-FV-vY4" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="jdI-TE-rg6"/>
+                <constraint firstAttribute="bottom" secondItem="HgR-Vm-Vgo" secondAttribute="bottom" constant="5" id="p7f-lE-uIe"/>
+                <constraint firstItem="v7F-pg-aRN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="vBn-cu-KFn"/>
+                <constraint firstItem="v7F-pg-aRN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="xvp-Zv-0nu"/>
+                <constraint firstItem="1hs-80-qj7" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="z55-nx-pM0"/>
+            </constraints>
+            <size key="customSize" width="316" height="118"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="I4E-uL-4mh"/>
+                    <exclude reference="z55-nx-pM0"/>
+                    <exclude reference="jdI-TE-rg6"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="addrLabel" destination="DUa-Aa-9Co" id="JBE-iI-oOs"/>
+                <outlet property="detailLabel" destination="1hs-80-qj7" id="Xqb-KN-Mmq"/>
+                <outlet property="disLabel" destination="RZj-Iy-UjV" id="vBM-iP-QRK"/>
+                <outlet property="imageView" destination="v7F-pg-aRN" id="xKY-4u-Y8y"/>
+                <outlet property="titleLabel" destination="jf1-Sh-ach" id="mFe-lG-NPy"/>
+            </connections>
+            <point key="canvasLocation" x="289" y="237"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="arrow" width="28" height="26"/>
+        <image name="distance2" width="40" height="6"/>
+    </resources>
+</document>
